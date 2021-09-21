@@ -76,7 +76,6 @@ class AppGUI:
 
     def pick_color(self):
         _, self.curcolor = colorchooser.askcolor(title="Choose A Color")
-        print(colorchooser.askcolor())
 
     def on_close(self):
         answer = messagebox.askyesnocancel("Quit", "Do you want to save this file as any format?", parent=self.window)
